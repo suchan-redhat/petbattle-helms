@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  matomo:
+  - apiVersion: v2
+    appVersion: 4.1.1
+    created: "2023-07-10T16:10:26.454953763+10:00"
+    dependencies:
+    - name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.2.4
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.6.2
+    description: A Helm chart for Kubernetes
+    digest: a580fbe62952bb50ba50173ade2410ffa159d6479e1db4a52960d2a3ab0c9587
+    icon: https://upload.wikimedia.org/wikipedia/commons/c/c9/Matomo_Logo.svg
+    maintainers:
+    - email: tina@ideaplexus.com
+      name: Tina Burschka
+      url: https://www.ideaplexus.com/open-source.html
+    name: matomo
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/suchan-redhat/petbattle-helms/master/matomo-4.1.1+01.tgz
+    version: 4.1.1+01
+generated: "2023-07-10T16:10:26.44526046+10:00"
